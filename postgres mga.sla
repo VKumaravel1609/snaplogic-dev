@@ -1,0 +1,195 @@
+{
+    "class_id": "com-snaplogic-snap-api-sql-accounts-postgresdatabaseaccount",
+    "class_version": 1,
+    "migration_metadata": {
+        "source_org": "AmerisurePOC"
+    },
+    "property_map": {
+        "info": {
+            "label": {
+                "value": "postgres mga"
+            },
+            "notes": {
+                "value": null
+            }
+        },
+        "settings": {
+            "advancedProperties": {
+                "value": {
+                    "acquireIncrement": {
+                        "value": 1
+                    },
+                    "autoCommit": {
+                        "expression": false,
+                        "value": true
+                    },
+                    "batchSize": {
+                        "expression": false,
+                        "value": 50
+                    },
+                    "checkoutTimeout": {
+                        "expression": false,
+                        "value": 10000
+                    },
+                    "evictConnectionOnClose": {
+                        "value": false
+                    },
+                    "fetchSize": {
+                        "expression": false,
+                        "value": 100
+                    },
+                    "idleConnectionTestPeriod": {
+                        "expression": false,
+                        "value": 5
+                    },
+                    "maxIdleTime": {
+                        "expression": false,
+                        "value": 30
+                    },
+                    "maxPoolSize": {
+                        "expression": false,
+                        "value": 50
+                    },
+                    "minPoolSize": {
+                        "value": 0
+                    },
+                    "retryAttempts": {
+                        "value": 0
+                    },
+                    "urlProperties": {
+                        "value": []
+                    }
+                }
+            },
+            "authMethod": {
+                "value": "User ID and Password"
+            },
+            "connectionProperties": {
+                "value": {
+                    "AuthenticationMode": {
+                        "expression": false,
+                        "value": "Password"
+                    },
+                    "JdbcDriversProp": {
+                        "value": []
+                    },
+                    "PrivateKey": {
+                        "expression": false,
+                        "fp": "a9e47d867a01b806b20dbf62ad75025ac00d62d279d0261c5d84928c12646554",
+                        "key": "account-cloud-managed-61eb1d16e0cede74de53293c-2022-01-21T20:52:43-942953+00:00",
+                        "sym_iv": "+C8wrLn4XodcW6MYPlrQxg==",
+                        "sym_key": "xEkwzJnW4L2jxqqgy3cFD53TDEVEkn+9JvdCQPCrPdG4wfvA3GNLk6nIV3d7x+0HJRM/j4htXmXiJh/IL+VKKEn1sfpH35wRv4UaSSd3FZrpRoHqhzwIXSbRt5lUAY6WZ69947DW0thQ/8bdgOG0ejdn+0pAhFVE7wODR6F+U6dvGmV/fzpJL9mtzuOvecq7vpHkdMblPRJ8cezAIhEBKK69iDymGDi33ypazeqXLaefJwRt7XTHxMmqeeMPvZBcSOwSnFuDQrBFkmpk/a4RVlPgsK4fp8T+JUq6PhAPHSROgCiv3WX28ZTsiMvE3VGZZ5vdjkvGQaAIBKILD3lM5Q==",
+                        "value": "9urIZkX8I3ijSPkCi1HCUA=="
+                    },
+                    "databaseName": {
+                        "expression": false,
+                        "value": "postgres"
+                    },
+                    "hostname": {
+                        "expression": false,
+                        "value": "sandbox-rds-postgres-sql.c0r9f6rqk4fi.us-east-2.rds.amazonaws.com"
+                    },
+                    "iamProps": {
+                        "value": {
+                            "accessKey": {
+                                "expression": false,
+                                "value": null
+                            },
+                            "crossAccountIAM": {
+                                "value": {
+                                    "externalID": {
+                                        "expression": false,
+                                        "fp": "a9e47d867a01b806b20dbf62ad75025ac00d62d279d0261c5d84928c12646554",
+                                        "key": "account-cloud-managed-61eb1d16e0cede74de53293c-2022-01-21T20:52:43-942953+00:00",
+                                        "sym_iv": "joRHh6Y2gY5mQVhqOQky8A==",
+                                        "sym_key": "vv9irrE6gOW3BORpz67SY/sfeCZAse90V9cIr4Gii/gbB/4x64LB/SncGg/F/GkMNCz9jPQbLzEzBtLTStPT8ikbF/AxKnMJTB3savRWFELhwKLI0Wq+c7MlD+wyTjARnPdmfGtrDsf6lfpopPMN6Gslnem9bNzkkopuGw6NyXoZoiCUqp8yZ/I7HW0ISoM4WRIAKgPeiBSwlS32AmU75gD2gXnhPU1GpSSCNiNfWKOhPfL5L4Ti4rs2USynefzUJg9G1RtTtamTITYCTFmcYGRCn7dStMyUX54c+5nHEWcU0DCeB6wA19SryNNOQtptPMchz3dlZL6UaaltH3Gb8g==",
+                                        "value": "VsYL3WRg5xhgqmfpwcZ6lg=="
+                                    },
+                                    "roleARN": {
+                                        "expression": false,
+                                        "value": null
+                                    }
+                                }
+                            },
+                            "iamRole": {
+                                "value": false
+                            },
+                            "region": {
+                                "expression": false,
+                                "value": null
+                            },
+                            "secretKey": {
+                                "expression": false,
+                                "fp": "a9e47d867a01b806b20dbf62ad75025ac00d62d279d0261c5d84928c12646554",
+                                "key": "account-cloud-managed-61eb1d16e0cede74de53293c-2022-01-21T20:52:43-942953+00:00",
+                                "sym_iv": "q7tBHuDbtU/5yGF8pJ33gg==",
+                                "sym_key": "m6FPsyYLKs2pW9DJmj7UDPDJa8jfpdsrA3xCwZ3zk/eoYBvTmRhAmm9axBCY1qLnHsGc2wdT2yuU5fAs9BV0b7YT++kwrw5PDH80R2NW+ofAPyoJREBtoBWS6WKFWBkhennt7ANqP70gNBwqWylcWR5EEyJ3RVy0o/5hnxulbOnVm9F6/aMRmTOoqD1UTFf3/QVHE8rajkm/ePtKgYYNpELunEll4g/iSelOC+wmTMiZGnSWnucJ5ZuznJvWRDEQKYmMHz8NdhKyBT0a0sX7wvlEQJHuERN4BSaOMgxPe08zqoGMfe2HEgkm21bISwPsCdPI2uEGgaWvYwsR1kqnPQ==",
+                                "value": "pf6k4GilmfFwsmP869/ghQ=="
+                            },
+                            "securityToken": {
+                                "expression": false,
+                                "value": null
+                            }
+                        }
+                    },
+                    "jdbcDriverClass": {
+                        "value": "org.postgresql.Driver"
+                    },
+                    "password": {
+                        "expression": false,
+                        "fp": "a9e47d867a01b806b20dbf62ad75025ac00d62d279d0261c5d84928c12646554",
+                        "key": "account-cloud-managed-61eb1d16e0cede74de53293c-2022-01-21T20:52:43-942953+00:00",
+                        "sym_iv": "2kG9M8xzNadBdOBsAI8drQ==",
+                        "sym_key": "P2AzgUwIzvawucgtaa9LVLIIdDIwmybefWXyBgk1TJnvHBE8yQBuw/u086ZVa93MDeR3vcQnfxPYGhYCxsLm2J5mPr5KKK+CGZCJD89Tx7QLinqdobs48ik3+qHaBPehRwez1yF2SEIBepykDDaNmEzJ+YNHD0h26DT49DYWIG3ysh8NiH8NXHZGQ9oFCQK6FeZHo2JRgeuUZ8me4foB8Ov0C9dlgkwrYACtYz82UIf8SA+x3kvgWCRwDP/q15TqT0TWreZJ3hzWKu+Orh7Kl/LDc2COpZ+l9yRdkSBvPIBv7bMEdq/W44tKNN/zqHotZpOXWYBtba2MUAqc4zgHFA==",
+                        "value": "mgctacvhpWMncLnUUoiSIzfZbtQg+Oef/7fnFOqJAcQ="
+                    },
+                    "portNumber": {
+                        "expression": false,
+                        "value": 5432
+                    },
+                    "privateKeyPassphrase": {
+                        "expression": false,
+                        "fp": "a9e47d867a01b806b20dbf62ad75025ac00d62d279d0261c5d84928c12646554",
+                        "key": "account-cloud-managed-61eb1d16e0cede74de53293c-2022-01-21T20:52:43-942953+00:00",
+                        "sym_iv": "m3up+xC/uYbUk7p0J18VYQ==",
+                        "sym_key": "UdTcwrK4Tt3Qndd9iQXQ6O3AS6LkW3u2L5VypxzI7cDpapu0/b+Nc03+/v20XPzllukRrr6sv4yJqvYygK8T36m6JNrlWv++M/rdBhSUKJj21IcuJ/vCCczxG/IK8y2PZsFBxJgZi13N5NP2ccL9z+InFyjBOGBXYutqVkQBTqz587s69fucaNopirUoWwKrfYZkrj8IJkn3Yjl7P7izvXqATVmRQ4i5kM8rVyVd1oEsJkS0LBK4zBQC61g9lASwDhz6B7b7maEyDYmS6XK/biAKE1SezOHaOCZAOVd8xGkTXGB7Ts5OEzKfdX0NZ2Qki5Ptgo6UPhheSj04G/2g+g==",
+                        "value": "gZVv8bXUMPF1JsyZHFxp5Q=="
+                    },
+                    "privateKeyUrl": {
+                        "expression": false,
+                        "value": null
+                    },
+                    "sshPort": {
+                        "expression": false,
+                        "value": 22
+                    },
+                    "sshTunnelConfiguration": {
+                        "expression": false,
+                        "value": false
+                    },
+                    "sshhostname": {
+                        "expression": false,
+                        "value": null
+                    },
+                    "sshpassword": {
+                        "expression": false,
+                        "fp": "a9e47d867a01b806b20dbf62ad75025ac00d62d279d0261c5d84928c12646554",
+                        "key": "account-cloud-managed-61eb1d16e0cede74de53293c-2022-01-21T20:52:43-942953+00:00",
+                        "sym_iv": "qZ3ZdJdT0AsYgRvkun+Djg==",
+                        "sym_key": "b3/rCa8CeySzf54uwk95Fx/HOLI7XegPuG8OnneWVdiHQziFKBGbATjMl6NRrHsxbtohI0jKCoPfua72lwuVUb+Zjs9+MtHC8cB7CoHDlFxGdPBu0muBFOPFC4oIhkEV6r0ZJqnvwC29sZIY+IYS7rnmTrJa+6tcH47VEICnl/FG0nnyXtJeLpDTUUdyh0eqNlps58NUcJpi8SQHKkPdQL/iYJJNEwSm7q0ngEMu/hL+OCq3vInQx2v8Zo+HRQfK0keVtVExIIcQBM0Sp9u16s0tV+dlwT93dXUqZBtD6805xfc7v7D0BXZVdvmbKDKVdQhhFQm0Gv7RDSxu4ktkag==",
+                        "value": "XshW2wrHlWg/uYr5E7jR/w=="
+                    },
+                    "sshusername": {
+                        "expression": false,
+                        "value": null
+                    },
+                    "username": {
+                        "expression": false,
+                        "value": "mga_app_select"
+                    }
+                }
+            }
+        },
+        "view_serial": 100
+    }
+}
